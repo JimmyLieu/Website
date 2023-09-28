@@ -1,8 +1,15 @@
+#about, 
+#resume, 
+#projects,
+#contacts {
+  width: 90%;
+  max-width:850px;
+}
 
-    
-    body {
+
+body {
         margin: 0;
-        padding: 0;
+        padding: 20;
         background-color: #8b4513;
         color: #000;
         font-family: 'Barlow', sans-serif;
@@ -81,16 +88,17 @@
     .terminal-container {
         background-color: #000000;
         color: #E7CEB5;
-        padding: 2px;
+        padding: 2%;
         font-family: 'Barlow', sans-serif;
-        height: 300px;
-        width: 850px;
+        height: auto;
+        width: auto;
+        margin: auto;
         text-align: left;
         border-top: 30px solid #E7CEB5;
         border-radius: 20px;
-        position: relative;
         box-shadow: 0 0 10px rgba(0, 0, 0, 1);
         align-items: center;
+        justify-content: center;
     }
 
 
@@ -100,8 +108,8 @@
         background-color: #000000;
         color: #E7CEB5;
         padding: 20px;
-        width: 850px;
-        height: 450px;
+        max-width: 800px;
+        height: auto;
         margin: 0 auto;
         border-radius: 20px;
         border-top: 30px solid #E7CEB5;
@@ -136,8 +144,8 @@
         background-color: #000000;
         color: #E7CEB5;
         padding: 20px;
-        width: 850px;
-        height: 650px;
+        max-width: 800px;
+        height: auto;
         margin: 0 auto;
         border-radius: 20px;
         border-top: 30px solid #E7CEB5;
@@ -220,7 +228,7 @@
         background-color: #000000;
         color: #8b4513;
         padding: 20px;
-        width: 850px;
+        max-width: 800px;
         margin: 0 auto;
         border-radius: 20px;
         border-top: 30px solid #E7CEB5;
@@ -246,9 +254,11 @@
         border-radius: 20px;
       }
       .main-project img {
-        max-width: 500px;
+        max-width: 400px;
         max-height: auto;
         border-radius:20px;
+        width: auto;
+        height: auto;
 
       }
       
@@ -270,14 +280,17 @@
         background-color: #000000;
         color: #E7CEB5;
         padding: 20px;
-        width: 450px;
-        height: 250px;
+        max-width: 450px;
+        width: auto;
+        max-height: 250px;
+        height: auto;
         margin: 0 auto;
         border-radius: 20px;
         border-top: 30px solid #E7CEB5;
         position: relative;
         box-shadow: 0 0 10px rgba(0, 0, 0, 1);
         margin-bottom: 200px;
+        justify-content: center;
     }
     .contact-icons {
         display: flex;
