@@ -90,42 +90,9 @@
         border-radius: 20px;
         position: relative;
         box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+        align-items: center;
     }
 
-    .circleRed {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        background-color: rgb(255, 60, 0);
-        top: -23px;
-        left: 15px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-    }
-
-    .circleYellow {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        background-color: rgb(235, 194, 44);
-        top: -23px;
-        left: 40px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-
-    }
-
-    .circleGreen {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        background-color: rgb(1, 213, 1);
-        top: -23px;
-        left: 65px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-
-    }
 
 
 
@@ -142,37 +109,7 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 1);
         margin-bottom: 200px;
     }
-    .circle1 {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        top:-23px;
-        left:15px;
-        border-radius: 50%;
-        background-color: rgb(255, 60, 0);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-
-    }
-    .circle2 {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        top:-23px;
-        left:40px;
-        border-radius: 50%;
-        background-color: rgb(235, 194, 44);     
-        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-    }
-      .circle3 {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        top:-23px;
-        left:65px;
-        border-radius: 50%;
-        background-color: rgb(1, 213, 1);    
-        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-    }
+    
     .about-content {
         display: flex;
         align-items: center;
@@ -194,37 +131,7 @@
         margin-bottom: 10px;
         align-items: left;
     }
-    .circle4 {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        top:-23px;
-        left:15px;
-        border-radius: 50%;
-        background-color: rgb(255, 60, 0);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-
-    }
-    .circle5 {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        top:-23px;
-        left:40px;
-        border-radius: 50%;
-        background-color: rgb(235, 194, 44);     
-        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-    }
-      .circle6 {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        top:-23px;
-        left:65px;
-        border-radius: 50%;
-        background-color: rgb(1, 213, 1);    
-        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-      }
+ 
     #resume {
         background-color: #000000;
         color: #E7CEB5;
@@ -320,37 +227,6 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 1);
         margin-bottom: 200px;
       }
-      .circle10 {
-        position: absolute;
-        width: 150px;
-        height: 150px;
-        top:-23px;
-        left:15px;
-        border-radius: 50%;
-        background-color: rgb(255, 60, 0);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-
-    }
-    .circle11 {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        top:-23px;
-        left:40px;
-        border-radius: 50%;
-        background-color: rgb(235, 194, 44);     
-        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-    }
-      .circle12 {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        top:-23px;
-        left:65px;
-        border-radius: 50%;
-        background-color: rgb(1, 213, 1);    
-        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-      }
       
       .projects h2 {
         margin: 0;
@@ -403,37 +279,6 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 1);
         margin-bottom: 200px;
     }
-    .circle7 {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        top:-23px;
-        left:15px;
-        border-radius: 50%;
-        background-color: rgb(255, 60, 0);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-
-    }
-    .circle8 {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        top:-23px;
-        left:40px;
-        border-radius: 50%;
-        background-color: rgb(235, 194, 44);     
-        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-    }
-      .circle9 {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        top:-23px;
-        left:65px;
-        border-radius: 50%;
-        background-color: rgb(1, 213, 1);    
-        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-      }
     .contact-icons {
         display: flex;
         gap: 45px; /* Adjust the gap as needed to control the spacing between icons */
