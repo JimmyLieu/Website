@@ -32,7 +32,7 @@ const aboutMe = () => {
 }
 
 const skills = () => {
-  const skills = ['HTML', 'CSS', 'TailwindCSS', 'Javascript', 'Python', 'Markdown', 'Dart', 'Shell', 'ReactJS', 'Flutter'];
+  const skills = ['HTML', 'CSS', 'TailwindCSS', 'Javascript', 'Python', 'Dart', 'Shell', 'ReactJS', 'Flutter'];
   const skillsDiv = document.getElementById('skills');
   skills.forEach((skill)=> skillsDiv.innerHTML += `<p class="skill-name">${skill}</p>`)
 }
