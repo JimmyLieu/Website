@@ -84,6 +84,21 @@ body {
         flex-wrap: wrap;
         justify-content: center;
     }
+    /* Media Query for Responsive Elements */
+@media (max-width: 450px) {
+  #about,
+  #resume,
+  #projects,
+  #contact {
+      width: 90%;
+      max-width: 450px;
+  }
+  .terminal-container {
+    padding: 5%; /* Adjust the padding as needed */
+    font-size: 0.8rem; /* Adjust the font size as needed */
+    border-top: 10px solid #E7CEB5; /* Adjust the border size as needed */
+}
+}
 
     .terminal-container {
         background-color: #000000;
@@ -301,4 +316,3 @@ body {
         width: 96px; /* Change this to your desired width */
         height: 96px; /* Change this to your desired height */
       }
-      
