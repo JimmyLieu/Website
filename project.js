@@ -4,6 +4,14 @@ const responseGithub = httpGet(
   const githubProjects = JSON.parse(responseGithub);
   const excludeProjects =
     "BankApplication Basic-Blockchain Website TripShareMySQL CreditCardValidation flutter_fitspo Fraction-Calculator PageRankAlgorithm topic-ladder Music-PlayList-Program Computer-Simulator";
+    const hardcodedProject = {
+        name: "Topic Ladder",
+        image: "Images/TopicLadder.jpg",
+        detail: "Mobile web application to create and vote on polls.",
+        github: "https://github.com/topicLadder/development",
+        tags: [],
+      };
+      
   const projectData = [
     {
       name: "Topic Ladder",
@@ -13,6 +21,8 @@ const responseGithub = httpGet(
       tags: [],
     },
   ];
+  projectData.push(hardcodedProject);
+
   githubProjects.forEach((project) => {
     const exclude = excludeProjects.includes(project.name);
     if (!exclude) {
