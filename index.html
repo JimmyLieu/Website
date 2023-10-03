@@ -1,110 +1,132 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jimmy Lieu</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Jimmy Lieu</title>
 </head>
 
-<body class="animate__animated animate__fadeIn">
-    <nav class="navbar">
-        <h1 class="logo">Jimmy Lieu</h1>
-        <ul class="nav-links-container">
-            <li class="nav-link"><a href="#home-section" class="links active">Home</a></li>
-            <li class="nav-link"><a href="#about-section" class="links">About Me</a></li>
-            <li class="nav-link"><a href="#project-section" class="links">Projects</a></li>
-            <li class="nav-link"><a href="#contact-section" class="links">Contact</a></li>
-        </ul>
-
-        <!-- Toggle -->
-        <div class="toggle-btn">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </nav>
-
-    <!-- header -->
-    <header class="header" id="home-section">
-        <div class="content">
-            <h1 class="header-heading">Hello World! <span class="brand-name">I'm<span> Jimmy</span></span></h1>
-            <div class="contact-div">
-                <div class="animate__animated animate__pulse"><a href="#about-section" class="btn">About Me?</a></div>
-            </div>
+<body>
+    <header>
+        <div class="container">
+            <h1>Jimmy Lieu</h1>
+            <p>Computer Science Student</p>
         </div>
     </header>
 
-    <!-- about section -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <section id="about-section">
-        <h1 class="heading">About Me</h1>
-        <!-- about -->
-        <div class="about-container">
-            <div class="image-container">
-                <div class="square"></div>
-                <img src="Images/JimmyLieu.jpg" class="about-img" alt="JimmyLieu">
-                <div class="social-links">
-                    <a id="github" href="#" target="_blank"><img src="Images/Github.png" class="social-img"
-                            alt="Github"></a>
-                    <a id="linkedin" href="#" target="_blank"><img src="Images/linkedin.png" class="social-img"
-                            alt="Linkedin"></a>
+    <section id="about">
+        <div class="container">
+            <h2>About Me </h2>
+            <p>My name is Jimmy Lieu, and I am a passionate Computer Science Student.
+              I have 3 years of experience in Computer Science, specializing in Java, JavaScript, HTML, CSS, and Flutter.
+              My journey in Computer Science has allowed me to work on various projects, collaborate with talented individuals,
+              and continuously learn and grow.
+            </p>
+            <p>I am dedicated to delivering high-quality solutions and finding innovative ways to tackle challenges.
+              I enjoy exploring new technologies, and I'm always excited to expand my knowledge and keep up with the latest industry trends.
+              Aside from my professional endeavors, I have a strong interest in technology, anime, and fashion.
+            </p>
+            <p>In my free time, you can find me coding or thrifting, which help me stay creative and maintain a well-rounded perspective.
+              Thank you for visiting my portfolio. I hope you enjoy exploring my projects and learning more about my work.
+              If you have any inquiries or would like to connect, please don't hesitate to reach out via the contact information provided.
+              I look forward to connecting with you!
+        </div>
+    </section>
+    <section id="experience">
+        <div class="container">
+            <h2>My Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Sept 2023 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Undergraduate Research Assistant </h3>
+                        <h4>University of Texas at Tyler</h4>
+                        <p>Details about your responsibilities and achievements.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2023 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Technology Support</h3>
+                        <h4>University of Texas at Tyler</h4>
+                        <p>Details</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class ="timeline-date"> June 2023 - Aug 2023</div>
+                    <div class ="timeline-content">
+                        <h3>Computer Works Technician at GoodWill</h3>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <ul class="skills-list">
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python, Java, C++</li>
+                <li>React, Node.js, Express.js</li>
+                <li>Database Management (SQL, MongoDB)</li>
+            </ul>
+        </div>
+    </section>
+    
 
-            <!-- info part -->
-            <div class="info">
-                <div id="info"></div>
-                <a href="#contact-section" class="btn about">Contact Me</a>
-                <a href="Resume/Jimmy_Lieu_Resume.pdf" target="_blank" class="btn about">Download my Resume</a>
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project">
+                <a href ="https://github.com/topicLadder/development">
+                    <img src="Images/TopicLadder.jpg" width="350" style="border: 5px solid #000; border-radius: 15px;">
+                </a>
+                <h3>Topic Ladder</h3>
+                
+                <p>The Poll Creating/Voting Application offers a seamless and engaging experience for 
+                    users interested in participating in polls without the hassle of user authentication. 
+                    By leveraging ReactJS, ExpressJS, and PostgreSQL, the application provides a robust, 
+                    real-time, and user-friendly platform for creating and voting on polls, making it accessible 
+                    to a wide range of users.</p>
+            </div>
+            <div class="project">
+                <h3>Inclusion Clinical System</h3>
+                <p><a href="https://github.com/JimmyLieu/inclusion_clinical_system"> Source Code </a></p>
+                <p>Designed for nurses, this application simplifies PDF document access and comprehension. 
+                    By integrating Flutter's intuitive interface with OpenAI's capabilities, nurses can effortlessly 
+                    refer back to PDF materials, generating contextually relevant questions and enhancing their overall 
+                    understanding, ultimately improving patient care and medical knowledge retention.</p>
             </div>
         </div>
+    </section>
 
-        <h2 class="sub-heading">Skills</h2>
-        <ul>
-         <ol>
-          HTML, CSS, Javascript
-         </ol>
-         <ol>
-          ReactJS, ExpressJS
-         </ol>
-         <ol>
-          Java, Python, Shell
-         </ol>
-        </ul>
-
-        <div id="skills" class="skills">
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <a href="https://www.linkedin.com/in/LieuJimmy/">
+            <img src ="SVGS/LinkedIn .svg" width="150" height="150">
+            </a>
+            <a href="mailto:jimmyvanlieu@gmail.com">
+                <img src = "SVGS/Gmail.svg" width ="150" height="150">
+            </a> 
         </div>
     </section>
 
-
-
-    <section id="project-section">
-        <h1 class="heading">Projects</h1>
-
-        <div id="filterProjects" class="filter"></div>
-
-        <!--  project cards -->
-        <div id="project-container" class="project-container"></div>
-    </section>
-
-    <section id="contact-section">
-        <h1 class="heading">Contact</h1>
-        <div class="form">
-            <form action="https://formspree.io/f/mayglnyl" method="POST">
-                <input name="email" type="email" placeholder="Email">
-                <textarea name="message" placeholder="Message"></textarea>
-                <button type="submit" class="contact-btn">Send Message</button>
-            </form>
-        </div>
-    </section>
+    <script src="script.js"></script>
 </body>
-
-<script src="./utils.js"></script>
-<script src="./project.js"></script>
-<script src="./app.js"></script>
 
 </html>
