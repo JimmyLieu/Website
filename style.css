@@ -53,6 +53,8 @@ a {
   text-align: center;
   border: 3px solid #000 ;
   border-radius: 10px;
+  box-shadow: 8px 10px grey;
+
 }
 .timeline {
   position: relative;
@@ -98,7 +100,9 @@ a {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: 0 auto; /* Center horizontally */
 }
+
 
 
 .content-container {
@@ -107,4 +111,26 @@ a {
   border: 3px solid #000 ;
   border-radius: 10px;
   padding: 15px;
+  box-shadow: 8px 10px grey;
 }
+
+@media (max-width: 768px) {
+  /* On smaller screens, display list items vertically */
+  nav ul li {
+      display: inline-block;
+      justify-content: center;
+      margin-right: 0px; /* Add spacing between vertically stacked list items */
+  }
+}
+.terminal-container {
+  width: 80%;
+  margin: 0 auto;
+  border: 3px solid #000;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #000;
+  color: #fff; /* Set text color to white */
+  font-family: "Cascadia Code", monospace; /* Use Cascadia font with a fallback to monospace */
+  box-shadow: 8px 10px grey;
+}
+
