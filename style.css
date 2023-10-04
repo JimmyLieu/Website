@@ -56,19 +56,19 @@ a {
   position: relative;
 }
 
-.timeline-item {
-  display: flex;
-  margin-bottom: 30px;
-}
 
 .timeline-date {
   width: 165px;
-  font-weight: bold;
+  font-weight: 900;
+}
+.timeline-content {
+  margin-left: 30px; /* Check this margin */
 }
 
-.timeline-content {
-  margin-left: 25px;
+.timeline-item {
+  margin-bottom: 30px;
 }
+
 
 /* Additional styling for aesthetics */
 .timeline-item:before {
@@ -81,13 +81,18 @@ a {
 
 .skills-list {
   list-style: none; /* Remove default list styles */
-  padding: 0;
+  padding: 10;
 }
 
 .skills-list li {
   display: inline-block; /* Display list items horizontally */
-  margin: 0 10px; /* Add space between list items */
+  margin: 10 10px; /* Add space between list items */
   padding: 8px 15px; /* Add padding inside the list items */
   border: 1px solid #000; /* Add border around each list item */
-  border-radius: 5px; /* Optional: Add rounded corners */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.center-image {
+  margin: 0 auto;
+  display: block;
 }
