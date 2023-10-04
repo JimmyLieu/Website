@@ -6,34 +6,43 @@ body {
 }
 
 header {
-  background-color: rgb(208, 151, 53);
-  color: white;
+  background-color: beige;
+  color: black;
   text-align: center;
   padding: 5px 0;
+  
 }
 
 nav {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 10px 0;
-  margin: 0 auto;
+  padding: 10px 0;  
 }
 
-nav ul {
-  list-style-type: none;
+.centered-nav {
+  text-align: center; /* Center the text inside the nav */
 }
 
-nav ul li {
+.centered-nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+.centered-nav ul li {
   display: inline;
-  margin: 10px;
-  list-style-type: none;
+  margin: 0 20px; /* Add spacing between list items */
+}
+
+.centered-nav ul li a {
+  text-decoration: none; /* Remove underline from links */
 }
 
 .container {
-  width: 80%;
+  width: auto;
   margin: 0 auto;
 }
+
 
 section {
   padding: 40px 0;
@@ -148,6 +157,7 @@ a {
   height: 15px;
   border-radius: 50%; /* Makes the shape a circle */
   margin-left: 10px; /* Add spacing between the buttons */
+  box-shadow: 3px 2px grey;
 }
 
 .close-button {
@@ -172,22 +182,30 @@ a {
   margin-left: -15px;
 }
 
-.centered-nav {
-  text-align: center; /* Center the text inside the nav */
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 100%;
 }
 
-.centered-nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: inline-block; /* Make the list items appear in a single line */
+@keyframes blink {
+  0%   { opacity: 0; }
+  50% { opacity: 0.6; }
+  100% { opacity: 0; }
 }
-
-.centered-nav ul li {
-  display: inline;
-  margin: 0 10px; /* Add spacing between list items */
+.stars-bg__star {
+  opacity: 0;
+  animation: blink 3s infinite;
 }
-
-.centered-nav ul li a {
-  text-decoration: none; /* Remove underline from links */
+.stars-bg__blink-2 {
+  animation-delay: 1s;
+}
+.stars-bg__blink-3 {
+  animation-delay: 2s;
+}
+.header-stars {
+  opacity: 0;
+  animation: blink 3s infinite;
 }
