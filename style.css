@@ -103,8 +103,6 @@ a {
   margin: 0 auto; /* Center horizontally */
 }
 
-
-
 .content-container {
   width: 80%;
   margin: 0 auto;
@@ -134,3 +132,40 @@ a {
   box-shadow: 8px 10px grey;
 }
 
+.mac-bar {
+  background-color: beige; /* Background color of the bar */
+  padding: 10px; /* Padding for content inside the bar */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  width: 100%; /* Make the bar span the full width of the parent container */
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.mac-button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; /* Makes the shape a circle */
+  margin-left: 10px; /* Add spacing between the buttons */
+}
+
+.close-button {
+  background-color: #ff5f56; /* Red color for close button */
+}
+
+.minimize-button {
+  background-color: #ffbd2e; /* Yellow color for minimize button */
+}
+
+.maximize-button {
+  background-color: #28ca42; /* Green color for maximize button */
+}
+.mac-bar1 {
+  background-color: beige; /* Background color of the bar */
+  padding: 10px; /* Padding for content inside the bar */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  width: 100%; /* Make the bar span the full width of the parent container */
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: -15px;
+}
