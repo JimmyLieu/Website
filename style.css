@@ -168,6 +168,7 @@ a {
   color: #fff; /* Set text color to white */
   font-family: "Cascadia Code", monospace; /* Use Cascadia font with a fallback to monospace */
   box-shadow: 8px 10px #3f4b3b;
+  
 }
 
 .mac-bar {
@@ -229,3 +230,50 @@ a {
   100% { opacity: 1; }
 }
 
+.typedout1 {
+  width: 14ch;
+  animation: typing 0.5s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+.typedout2 {
+  width: 24ch;
+  animation: typing 1s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+.typedout3 {
+  width: 21ch;
+  animation: typing 1s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+.typedout4 {
+  width: 14ch;
+  animation: typing 0.5s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+.typedout5 {
+  width: 70ch;
+  animation: typing 1s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
