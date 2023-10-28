@@ -259,7 +259,7 @@ a {
   border-right: 3px solid;
 }
 .typedout5 {
-  width: 70ch;
+  width: 46ch;
   animation: typing 1s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -276,4 +276,8 @@ a {
   50% {
     border-color: transparent
   }
+}
+.resume a{
+  font-style: underline;
+  color: #000;
 }
