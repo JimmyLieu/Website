@@ -201,16 +201,57 @@ li, a, button {
   color:#262626;
 }
 
-.experience-info{
-  color: #262626;
-  font-family: RopaSans;
-  font-weight: 500;
-  font-size: 24px;
-  margin-left: 20px;
-  padding-bottom: 20px;
+.experience-info {
+  margin: 20px; /* Add margin for spacing between boxes */
+  padding: 20px; /* Add padding to the content inside the box */
+  border: 2px solid black; /* Set border properties */
+  width: calc(33% - 40px); /* Calculate width to fit three boxes in a row with spacing */
+  display: inline-block;
+  box-sizing: border-box; /* Include padding and border in the box's total width */
+  vertical-align: top; /* Align boxes at the top */
 }
+
+/* Adjustments for smaller screens to ensure responsiveness */
+@media (max-width: 768px) {
+  .experience-info {
+    width: calc(50% - 40px); /* For smaller screens, display two boxes in a row */
+  }
+}
+
+
 
 .projects-container{
   background-color: #262626;
 }
 
+
+.date {
+  color: #2C363F;
+  font-family: RopaSans;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: bold;
+}
+
+.role{
+  color: #A53860;
+  font-family: RopaSans;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: bold;
+}
+.location {
+  color: #348AA7;
+  font-family: RopaSans;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: bold;
+}
+
+.experience-description{
+  color: #2C363F;
+  font-family: RopaSans;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: bold;
+}
