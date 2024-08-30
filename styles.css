@@ -9,14 +9,21 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #FFFFE3;
+    background-image: url(Images/IMG_5752.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+  
 }
 
 h1 {
-    color: black;
+    color: white;
     font-size: 48px;
+  
+}b   
+
+h2 {
+    color: white;
+    font-size: 36px;
 }
 
 .centerTop{
@@ -33,7 +40,8 @@ h1 {
     margin-right: 0 auto;
     width: 50%;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0rem;
+   
 }
 
 .content-container {
@@ -47,8 +55,8 @@ h1 {
 
 p {
     font-family: url(downloads/BeVietnamPro-Variable.ttf);
-    color: black;
-    font-size: 18px;
+    color: white;
+    font-size: 24px;
     margin-bottom: 20px;
     text-align:center;
     padding-left: 1rem;
@@ -61,6 +69,7 @@ p {
     justify-content: flex-start;
     align-items: center;
     height: 5px;
+    
 }
 
 .links-container a {
@@ -69,10 +78,10 @@ p {
     margin: 10px;
     padding: 10px 20px;
     text-decoration: none;
-    color: black;
+    color: white;
     border-radius: 5px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 800;
 }
 
 .links-container a:hover {
