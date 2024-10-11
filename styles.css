@@ -1,114 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: url(/downloads/Stardom-Regular.ttf);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-image: url(Images/IMG_5752.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-  
+@font-face{
+    font-family: Monaco;
+    src:url(/downloads/Monaco.ttf)
 }
 
-h1 {
-    color: white;
-    font-size: 48px;
-  
-}b   
-
-h2 {
-    color: white;
-    font-size: 36px;
-}
-
-.centerTop{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0rem;
-    width: 50%;
-    text-align: center;
-}
-.centerTop2 {
-    display: block;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    width: 50%;
-    text-align: center;
-    margin-top: 0rem;
-   
-}
-
-.content-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1;
-
-}
-
-p {
-    font-family: url(downloads/BeVietnamPro-Variable.ttf);
-    color: white;
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align:center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.links-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    height: 5px;
+body{
+    background-color: #f5f9ff;
+    margin: 0px;
+    font-family: "Monaco", sans-serif;
     
 }
+main{
+    margin: 20px;
 
-.links-container a {
-    margin-top:1rem;
-    display: block;
-    margin: 10px;
-    padding: 10px 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5 em;
+    color: #747fe0;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.navbar a{
     text-decoration: none;
-    color: white;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 800;
+    padding: 25px;
+    display: block;
+    text-align: center;
 }
 
-.links-container a:hover {
-    color: #297fb8; /* Change the text color on hover */
+.navbar a:hover{
+    color: #747fe0;
+    text-decoration-line:   
 }
 
-
-.footerText p{
-    color: black;
-    font-size: 8px;
-    
+.navbar li{
+    float: right;
 }
 
-@media (max-width: 480px) {
-    p {
-        font-size: 14px;
-    }
-    h1{
-        font-size: 30px;
-    }
-    .centerTop,
-    .centerTop2 {
-        width: 80%;
-    }
+.navbar li::after {
+    background-color: #747fe0;
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    transition: width 0.35s ease 0s;
+    position: absolute;
+}
 
-    .links-container {
-        flex-direction: column;
-        align-items: center;
-    }
+.navbar li:hover:after{
+    width: 100%;
 }
