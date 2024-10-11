@@ -11,7 +11,7 @@
 
 body{
     padding-left: 3.0rem;
-    padding-right: 10.5rem;
+    padding-right: 5.5rem;
     font-family: Monaco;
     
 }
@@ -26,10 +26,26 @@ body{
     padding: 20px; /* Add some padding inside the grid items */
     text-align: left; /* Center the text */
     border: 1px solid #ccc; /* Optional: Add a border to the grid items */
-    border-color:black
+    border-color:black;
+    transition: border-color 0.3s ease;
+}
+
+.grid-item a {
+    display: flex; /* Make the anchor a flex container */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: flex-start; /* Align items to the left */
+    width: 100%; /* Fill the entire grid item */
+    height: 100%; /* Fill the entire grid item */
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color from parent */
 }
 .subtext{
     font-size:14px;
+}
+.grid-item:hover{
+    border-color: red;
+    color: red;
 }
 @media only screen and (max-width: 768px) {
     .wrapper {
