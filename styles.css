@@ -25,9 +25,9 @@ body{
     font-size:18px;
     padding: 20px; /* Add some padding inside the grid items */
     text-align: left; /* Center the text */
-    border: 1px solid #ccc; /* Optional: Add a border to the grid items */
+    border: 1.5px solid #ccc; /* Optional: Add a border to the grid items */
     border-color:black;
-    transition: border-color 0.3s ease;
+    
 }
 
 .grid-item a {
