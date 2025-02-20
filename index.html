@@ -1,44 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimmy Lieu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
 <body>
-
-<div class="heroTitle">
-    <h1> &lt Jimmy Lieu &gt</h1>
-    <p>Building simple websites for simple purposes.
-        <br>Current Student at University of Texas at Tyler. 
-        <br>Living in Tyler, TX.
-        <br>
-        <br>
-    <a href="https://github.com/JimmyLieu/" target ="_blank" rel="noopener noreferrer" >Github</a> &emsp; 
-    <a href="https://linkedin.com/in/LieuJimmy/" target ="_blank" rel="noopener noreferrer">LinkedIn</a> &emsp; 
-    <a href="Resume/JLieuResume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>&emsp; 
-    <a href="mailto:jimmyvanlieu@gmail.com" target="_blank" rel="noopener noreferrer">Email Me</a>
-    </p>
-
-
-</div>
-    <h2> &lt Projects &gt</h2>
-    <div class="wrapper">
-        <div class="grid-item">
-            <a href="https://enochs.vercel.app/" target ="_blank" rel="noopener noreferrer">
-            Enoch's Coffee House
-            <p><span class="subtext">Modern Website</span> </p>
-            </a>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#">Jimmy Lieu</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <div class="grid-item">
-            <a href="https://github.com/topicLadder/development" target ="_blank" rel="noopener noreferrer">
-            Topic Ladder
-            <p> <span class="subtext">Poll Taking Website</span></p>
-            </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Jimmy Lieu</span></h1>   
+            <h2>Software Developer</h2>
+            <p>I build elegant solutions to complex problems</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
         </div>
-        <div class="grid-item">
-            <a href="https://github.com/JimmyLieu/MLResearch" target ="_blank" rel="noopener noreferrer">
-            Machine Learning
-            <p><span class="subtext">CO2 Prediction Algorithm</span></p>
-            </a>    
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Hi! I'm Jimmy Lieu, a Computer Science Student with 3 years of experience specializing in Java, JavaScript, HTML, CSS, and Flutter. 
+                           Through my journey, I've collaborated on various projects while continuously learning and growing in the field.</p>
+
+                        <p>I'm passionate about delivering high-quality solutions and exploring new technologies. When I'm not coding, 
+                           you can find me exploring my interests in anime, fashion, and card games!</p>
+
+                        <p>Feel free to explore my projects and reach out if you'd like to connect!</p>
+                        <div class="skills">
+                            <h3>Technical Skills</h3>
+                            <div class="skills-grid">
+                                <div class="skill-category">
+                                    <h4>Frontend</h4>
+                                    <ul>
+                                        <li>React.js</li>
+                                        <li>JavaScript</li>
+                                        <li>HTML/CSS</li>
+                                    </ul>
+                                </div>
+                                <div class="skill-category">
+                                    <h4>Backend</h4>
+                                    <ul>
+                                        <li>Node.js</li>
+                                        <li>MongoDB</li>
+                                        <li>Java</li>
+                                    </ul>
+                                </div>
+                                <div class="skill-category">
+                                    <h4>Tools</h4>
+                                    <ul>
+                                        <li>Git</li>
+                                        <li>VS Code</li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        
     </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="/Images/Topic.png" alt="Project 1">
+                <h3>Topic Ladder</h3>
+                <p>Poll-taking Application</p>
+                <div class="tech-stack">
+                    <span>ReactJS |</span>
+                    <span>Node.js |</span>
+                    <span>MongoDB</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/topicLadder/development/tree/main" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="/Images/Topic.png" alt="Project 1">
+                <h3>Topic Ladder</h3>
+                <p>Poll-taking Application</p>
+                <div class="tech-stack">
+                    <span>ReactJS |</span>
+                    <span>Node.js |</span>
+                    <span>MongoDB</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/topicLadder/development/tree/main" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>  
+            <div class="project-card">
+                <img src="/Images/Topic.png" alt="Project 1">
+                <h3>Enoch's Coffee</h3>
+                <p>Local Coffee Shop Website</p>
+                <div class="tech-stack">
+                    <span>ReactJS |</span>
+                    <span>Node.js |</span>
+                    <span>MongoDB</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/topicLadder/development/tree/main" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <script src="script.js"></script>
 </body>
 </html>
