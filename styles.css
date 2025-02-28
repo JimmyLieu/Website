@@ -108,8 +108,45 @@ nav {
 }
 
 .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.hero-text {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 300px;        /* Set a fixed width */
+    height: 300px;       /* Same as width to maintain circle shape */
+    object-fit: cover;   /* Ensures image fills the circle without distortion */
+    border-radius: 50%;  /* Makes the image circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* For mobile responsiveness */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-text {
+        padding-right: 0;
+        margin-bottom: 2rem;
+    }
 }
 
 .highlight {
@@ -183,10 +220,6 @@ form {
 @media (max-width: 768px) {
     .nav-links {
         display: none;
-    }
-    
-    .hero-content {
-        text-align: center;
     }
     
     .projects-grid {
