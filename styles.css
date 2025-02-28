@@ -68,6 +68,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
+    margin: 0;
+    padding-top: 50px; /* Reduced from 70px */
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: var(--text-color);
@@ -431,4 +433,108 @@ section {
 
 .contact-button:hover {
     background-color: #0056b3;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2rem; /* Reduced from 1rem */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #fff;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    height: 60px; /* Reduced from 70px */
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #101010;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #101010;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+    color: #007bff;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-menu {
+        position: absolute;  /* Changed from fixed to absolute */
+        left: -100%;
+        top: 60px; /* Update to match new navbar height */
+        gap: 0;
+        flex-direction: column;
+        background-color: #fff;
+        width: 200px;      /* Fixed width instead of full screen */
+        text-align: left;  /* Left align text */
+        transition: 0.3s;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 10px 0;
+        border-radius: 0 0 4px 4px;  /* Rounded corners at bottom */
+    }
+
+    .nav-menu.active {
+        left: auto;        /* Reset left positioning */
+        right: 20px;      /* Position from right side */
+        display: flex;
+    }
+
+    .nav-menu li {
+        margin: 0;
+        padding: 10px 20px;
+    }
+
+    .nav-menu li a {
+        display: block;
+        width: 100%;
+    }
+
+    .nav-menu li:hover {
+        background-color: #f8f9fa;
+    }
+
+    body {
+        padding-top: 60px; /* Match navbar height */
+    }
+}
+
+/* Adjust first section to account for navbar */
+section:first-of-type {
+    margin-top: 10px; /* Reduced from 20px */
 }
