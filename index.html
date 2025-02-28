@@ -140,12 +140,22 @@
     <section id="contact" class="contact">
         <h2>Get In Touch</h2>
         <div class="contact-content">
-            <form id="contact-form">
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Message" required></textarea>
-                <button type="submit" class="btn primary">Send Message</button>
-            </form>
+            <div class="contact-section">
+                <h2>Contact Me</h2>
+                <form id="contactForm" action="https://formspree.io/f/mayglnyl" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="contact-button">Send Message</button>
+                </form>
+                <div id="submitMessage" style="display: none; margin-top: 20px; text-align: center;"></div>
+            </div>
             <div class="social-links">
                 <a href="https://github.com/JimmyLieu" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/lieujimmy/" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -155,5 +165,36 @@
 
 
     <script src="script.js"></script>
+    <script>
+        const form = document.getElementById("contactForm");
+        const submitMessage = document.getElementById("submitMessage");
+
+        form.addEventListener("submit", async (e) => {
+            e.preventDefault();
+            
+            try {
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+                
+                if (response.ok) {
+                    form.reset();
+                    submitMessage.style.display = "block";
+                    submitMessage.style.color = "green";
+                    submitMessage.textContent = "Thanks for your message! I'll get back to you soon.";
+                } else {
+                    throw new Error('Form submission failed');
+                }
+            } catch (error) {
+                submitMessage.style.display = "block";
+                submitMessage.style.color = "red";
+                submitMessage.textContent = "Oops! There was a problem sending your message. Please try again.";
+            }
+        });
+    </script>
 </body>
 </html>
