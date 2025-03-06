@@ -574,3 +574,34 @@ section:first-of-type {
     background-color: #e9ecef;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
+.carousel-container {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-track-container {
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+    cursor: grab; /* Shows a grab cursor to indicate draggable */
+    user-select: none; /* Prevents text selection while dragging */
+}
+
+.carousel-track:active {
+    cursor: grabbing; /* Changes cursor while dragging */
+}
+
+.project-card {
+    flex: 0 0 calc(100% - 40px);
+    min-width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
