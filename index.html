@@ -4,170 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jimmy Lieu</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="brand">Jimmy Lieu</div>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">Jimmy Lieu</a>
+            <div class="nav-links">
+                <a href="#projects">Projects</a>
+                <a href="#posts">Posts</a>
+            </div>
         </div>
-        <ul class="nav-menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1>Hi, I'm <span class="highlight">Jimmy Lieu</span></h1>   
-                <h2>Software Developer</h2>
-                <p>I build elegant solutions to complex problems</p>
-                <div class="cta-buttons">
-                    <a href="#projects" class="btn primary">View My Work</a>
-                    <a href="#contact" class="btn secondary">Contact Me</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="./Images/JimmyLieu.jpg" alt="Jimmy Lieu">
-            </div>
+    <main class="container">
+       
+        
+        <div class="intro">
+            <p>Here I will share my thoughts on technology and development.</p>
+            <p>As a software developer, I will share my projects and experiences in the field.</p>
+            <p>When I'm not coding, you can find me exploring anime, fashion, and card games!</p>
         </div>
-    </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="about-content">
-            <h2>About Me</h2>
-                <div class="about-grid">
-                    <div class="about-text">
-                        <p>Hi! I'm Jimmy Lieu, a Computer Science Student with 3 years of experience specializing in Java, JavaScript, HTML, CSS, and Flutter. 
-                           Through my journey, I've collaborated on various projects while continuously learning and growing in the field.</p>
-
-                        <p>I'm passionate about delivering high-quality solutions and exploring new technologies. When I'm not coding, 
-                           you can find me exploring my interests in anime, fashion, and card games!</p>
-
-                        <p>Feel free to explore my projects and reach out if you'd like to connect!</p>
-                        <div class="skills">
-                            <h3>Technical Skills</h3>
-                            <div class="skills-grid">
-                                <div class="skill-category">
-                                    <h4>Frontend</h4>
-                                    <ul>
-                                        <li>React.js</li>
-                                        <li>JavaScript</li>
-                                        <li>HTML/CSS</li>
-                                    </ul>
-                                </div>
-                                <div class="skill-category">
-                                    <h4>Backend</h4>
-                                    <ul>
-                                        <li>Node.js</li>
-                                        <li>MongoDB</li>
-                                        <li>Java</li>
-                                    </ul>
-                                </div>
-                                <div class="skill-category">
-                                    <h4>Tools</h4>
-                                    <ul>
-                                        <li>Git</li>
-                                        <li>VS Code</li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="social-links">
+            <a href="https://github.com/JimmyLieu" aria-label="GitHub">
+                <img src="SVGS/Github.svg" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/lieujimmy/" aria-label="LinkedIn">
+                <img src="SVGS/LinkedIn .svg" alt="LinkedIn">
+            </a>
+         
+            <a href="mailto:jimmyvanlieu@gmail.com" aria-label="Email">
+                <img src="SVGS/Gmail.svg" alt="Email">
+            </a>
         </div>
-    </div>
-</section>
 
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <h2>My Projects</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <img src="./Images/Topic.png" alt="Project 1">
+        <section class="projects">
+            <h2>Projects</h2>
+            <article class="project-card">
+                <h3>East Texas Ballon Gal</h3>
+                <div class="project-meta">
+                    <span class="date">March 2025</span>
+                    <span class="technologies">ReactJS</span>
+            
+                </div>
+                <p>Local Balloon Shop Website built with React.</p>
+                <a href="https://etx-balloon-gal.vercel.app/" class="read-more">View Project →</a>
+            </article>
+            <article class="project-card">
                 <h3>Topic Ladder</h3>
-                <p>Poll-taking Application</p>
-                <div class="tech-stack">
-                    <span>ReactJS |</span>
-                    <span>Node.js |</span>
-                    <span>MongoDB</span>
+                <div class="project-meta">
+                    <span class="date">March 2024</span>
+                    <span class="technologies">ReactJS, Node.js</span>
+                    
                 </div>
-                <div class="project-links">
-                    <a href="https://github.com/topicLadder/development/tree/main" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="./Images/ML.png" alt="Project 1">
-                <h3>CO2 Predictor</h3>
-                <p>Machine Learning Model </p>
-                <div class="tech-stack">
-                    <span>Python |</span>
-                    <span>Google Colab </span>
+                <p>Poll-taking Application built with React and MongoDB.</p>
+                <a href="https://github.com/topicLadder/development/tree/main" class="read-more">View Project →</a>
+            </article>
 
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/JimmyLieu/MLResearch" target="_blank"><i class="fab fa-github"></i></a>
-                </div>
-            </div>  
-            <div class="project-card">
-                <img src="./Images/Enochs.png" alt="Enochs">
-                
+            <article class="project-card">
                 <h3>Enoch's Coffee</h3>
-                <p>Local Coffee Shop Website</p>
-                <div class="tech-stack">
-                    <span>ReactJS </span>
-              
+                <div class="project-meta">
+                    <span class="date">February 2024</span>
+                    <span class="technologies">ReactJS</span>
+                    
                 </div>
-                <div class="project-links">
-                    <a href="https://github.com/JimmyLieu/enochs" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://enochs.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="contact-content">
-            <div class="contact-section">
-                <h2>Contact Me</h2>
-                <form id="contactForm" action="https://formspree.io/f/mayglnyl" method="POST">
-                    <div class="form-group">
-                        <input type="text" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea name="message" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="contact-button">Send Message</button>
-                </form>
-                <div id="submitMessage" style="display: none; margin-top: 20px; text-align: center;"></div>
-            </div>
-            <div class="social-links">
-                <a href="https://github.com/JimmyLieu" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/lieujimmy/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </div>
-        </div>
-    </section>
-
-    <script src="script.js"></script>
+                <p>Local Coffee Shop Website built with React.</p>
+                <a href="https://enochs.vercel.app/" class="read-more">View Project →</a>
+            </article>
+            
+        </section>
+    </main>
 </body>
 </html>
