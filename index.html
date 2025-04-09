@@ -12,18 +12,19 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav>
-        <div class="nav-content">
-            <div class="logo">
-                <a href="#">Jimmy Lieu</a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <nav class="navbar">
+        <div class="brand">Jimmy Lieu</div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
     <!-- Hero Section -->
@@ -108,10 +109,8 @@
                     <span>MongoDB</span>
                 </div>
                 <div class="project-links">
-                    <a href="https://github.com/topicLadder/development/tree/main" target="_blank" class="project-link">
-                        <i class="fab fa-github"></i>
-                        <span>Code</span>
-                    </a>
+                    <a href="https://github.com/topicLadder/development/tree/main" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="project-card">
@@ -121,52 +120,53 @@
                 <div class="tech-stack">
                     <span>Python |</span>
                     <span>Google Colab </span>
+
                 </div>
                 <div class="project-links">
-                    <a href="https://github.com/JimmyLieu/MLResearch" target="_blank" class="project-link">
-                        <i class="fab fa-github"></i>
-                        <span>Code</span>
-                    </a>
+                    <a href="https://github.com/JimmyLieu/MLResearch" target="_blank"><i class="fab fa-github"></i></a>
                 </div>
             </div>  
             <div class="project-card">
                 <img src="./Images/Enochs.png" alt="Enochs">
+                
                 <h3>Enoch's Coffee</h3>
                 <p>Local Coffee Shop Website</p>
                 <div class="tech-stack">
                     <span>ReactJS </span>
+              
                 </div>
                 <div class="project-links">
-                    <a href="https://github.com/JimmyLieu/enochs" target="_blank" class="project-link">
-                        <i class="fab fa-github"></i>
-                        <span>Code</span>
-                    </a>
-                    <a href="https://enochs.vercel.app/" target="_blank" class="project-link">
-                        <i class="fas fa-external-link-alt"></i>
-                        <span>Live Demo</span>
-                    </a>
+                    <a href="https://github.com/JimmyLieu/enochs" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://enochs.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                 </div>
-            </div>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <h2>Get In Touch</h2>
         <div class="contact-content">
-            <form id="contact-form">
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Message" required></textarea>
-                <button type="submit" class="btn primary">Send Message</button>
-            </form>
+            <div class="contact-section">
+                <h2>Contact Me</h2>
+                <form id="contactForm" action="https://formspree.io/f/mayglnyl" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="contact-button">Send Message</button>
+                </form>
+                <div id="submitMessage" style="display: none; margin-top: 20px; text-align: center;"></div>
+            </div>
             <div class="social-links">
                 <a href="https://github.com/JimmyLieu" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/lieujimmy/" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
     </section>
-
 
     <script src="script.js"></script>
 </body>
