@@ -4,76 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jimmy Lieu</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <a href="#" class="logo">Jimmy Lieu</a>
-            <div class="nav-links">
-                <a href="#projects">Projects</a>
-                <a href="#posts">Posts</a>
-            </div>
-        </div>
-    </nav>
-
     <main class="container">
-       
-        
-        <div class="intro">
-            <p>Here I will share my thoughts on technology and development.</p>
-            <p>As a software developer, I will share my projects and experiences in the field.</p>
-            <p>When I'm not coding, you can find me exploring anime, fashion, and card games!</p>
-        </div>
+        <section class="bio">
+            <h1>Jimmy Lieu</h1>
+            <p class="tagline">Software Developer</p>
+            <p class="description">I build digital experiences and share my journey in technology. When I'm not coding, I enjoy exploring anime, fashion, and card games.</p>
+        </section>
 
-        <div class="social-links">
+        <section class="social">
             <a href="https://github.com/JimmyLieu" aria-label="GitHub">
                 <img src="SVGS/Github.svg" alt="GitHub">
             </a>
             <a href="https://www.linkedin.com/in/lieujimmy/" aria-label="LinkedIn">
                 <img src="SVGS/LinkedIn .svg" alt="LinkedIn">
             </a>
-         
             <a href="mailto:jimmyvanlieu@gmail.com" aria-label="Email">
                 <img src="SVGS/Gmail.svg" alt="Email">
             </a>
-        </div>
+        </section>
 
         <section class="projects">
             <h2>Projects</h2>
-            <article class="project-card">
+            <div class="project-card">
+                <h3>FireAI Website</h3>
+                <p class="project-description">Fire detection system built with ReactJS.</p>
+                <div class="project-meta">
+                    <span class="date">April 2025</span>
+                    <span class="technologies">ReactJS</span>
+                </div>
+                <a href="https://fireaiwebsite.vercel.app/" class="project-link">View Project →</a>
+            </div>
+            <div class="project-card">
                 <h3>East Texas Ballon Gal</h3>
+                <p class="project-description">Local Balloon Shop Website built with React.</p>
                 <div class="project-meta">
                     <span class="date">March 2025</span>
                     <span class="technologies">ReactJS</span>
-            
                 </div>
-                <p>Local Balloon Shop Website built with React.</p>
-                <a href="https://etx-balloon-gal.vercel.app/" class="read-more">View Project →</a>
-            </article>
-            <article class="project-card">
+                <a href="https://etx-balloon-gal.vercel.app/" class="project-link">View Project →</a>
+            </div>
+
+            <div class="project-card">
                 <h3>Topic Ladder</h3>
+                <p class="project-description">Poll-taking Application built with React and MongoDB.</p>
                 <div class="project-meta">
                     <span class="date">March 2024</span>
                     <span class="technologies">ReactJS, Node.js</span>
-                    
                 </div>
-                <p>Poll-taking Application built with React and MongoDB.</p>
-                <a href="https://github.com/topicLadder/development/tree/main" class="read-more">View Project →</a>
-            </article>
+                <a href="https://github.com/topicLadder/development/tree/main" class="project-link">View Project →</a>
+            </div>
 
-            <article class="project-card">
+            <div class="project-card">
                 <h3>Enoch's Coffee</h3>
+                <p class="project-description">Local Coffee Shop Website built with React.</p>
                 <div class="project-meta">
                     <span class="date">February 2024</span>
                     <span class="technologies">ReactJS</span>
-                    
                 </div>
-                <p>Local Coffee Shop Website built with React.</p>
-                <a href="https://enochs.vercel.app/" class="read-more">View Project →</a>
-            </article>
-            
+                <a href="https://enochs.vercel.app/" class="project-link">View Project →</a>
+            </div>
         </section>
     </main>
 </body>
