@@ -71,23 +71,15 @@ img {
 }
 
 .social a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: var(--gray);
-  transition: transform 0.2s ease;
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-weight: 500;
+  transition: color 0.2s ease;
 }
 
 .social a:hover {
-  transform: translateY(-3px);
-}
-
-.social img {
-  width: 40px;
-  height: 40px;
+  color: var(--primary);
 }
 
 /* Projects Section */
