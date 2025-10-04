@@ -16,3 +16,5 @@ my current tech stack that i'm utilizing:
 i decided to start this blog to showcase some of my life experiences and hopefully document my journey as a software engineer which has always been a dream of mine
 
 i also play the one piece card game on my free time and improving every day on that
+
+my best record is also only 6-3 at last chance qualilfier for one piece nats with my goat zoro
