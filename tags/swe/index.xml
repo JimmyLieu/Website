@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swe on JVL</title>
+    <link>http://localhost:1313/tags/swe/</link>
+    <description>Recent content in Swe on JVL</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/swe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>intro</title>
+      <link>http://localhost:1313/posts/intro/</link>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/intro/</guid>
+      <description>&lt;p&gt;hello everyone, my name is jimmy lieu. i am a software engineer at a local company and i enjoy my work there.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

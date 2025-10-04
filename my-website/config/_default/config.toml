@@ -1,0 +1,19 @@
+baseURL = 'https://jimmyvanlieu.com'
+languageCode = 'en-us'
+title = 'JVL'
+theme = "shibui"
+
+
+[params]
+  author = "Jmi"
+  email = "jimmyvanlieu@gmail.com"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>welcome on JVL</title>
+    <link>https://jimmyvanlieu.com/</link>
+    <description>Recent content in welcome on JVL</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jimmyvanlieu.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>intro</title>
+      <link>https://jimmyvanlieu.com/posts/intro/</link>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://jimmyvanlieu.com/posts/intro/</guid>
+      <description>&lt;p&gt;hello everyone, my name is jimmy lieu. i am a software engineer and i enjoy my work there.&lt;/p&gt;&#xA;&lt;p&gt;my current tech stack that i&amp;rsquo;m utilizing:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;dagster&lt;/li&gt;&#xA;&lt;li&gt;python&lt;/li&gt;&#xA;&lt;li&gt;go (WIP)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;i decided to start this blog to showcase some of my life experiences and hopefully document my journey as a software engineer which has always been a dream of mine&lt;/p&gt;&#xA;&lt;p&gt;i also play the one piece card game on my free time and improving every day on that&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://jimmyvanlieu.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jimmyvanlieu.com/about/</guid>
+      <description>&lt;p&gt;1x developer from texas&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
