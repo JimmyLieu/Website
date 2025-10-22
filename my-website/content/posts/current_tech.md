@@ -1,6 +1,6 @@
 ---
 title: "tech1"
-date: 2025-10-05(WIP)
+date: 2025-10-05
 tags: ["tech"]
 ---
 
