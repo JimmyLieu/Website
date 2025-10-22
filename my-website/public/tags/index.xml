@@ -2,17 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on JVL</title>
-    <link>https://jimmyvanlieu.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on JVL</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jimmyvanlieu.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optcg</title>
+      <link>http://localhost:1313/tags/optcg/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/optcg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech</title>
+      <link>http://localhost:1313/tags/tech/</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tech/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Swe, Optcg, </title>
-      <link>https://jimmyvanlieu.com/tags/swe-optcg-/</link>
+      <link>http://localhost:1313/tags/swe-optcg-/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://jimmyvanlieu.com/tags/swe-optcg-/</guid>
+      <guid>http://localhost:1313/tags/swe-optcg-/</guid>
       <description></description>
     </item>
   </channel>

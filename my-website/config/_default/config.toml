@@ -8,6 +8,11 @@ theme = "shibui"
   author = "Jmi"
   email = "jimmyvanlieu@gmail.com"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Enable HTML in markdown
+
 [menu]
   [[menu.main]]
     name = "Posts"
@@ -17,3 +22,7 @@ theme = "shibui"
     name = "About"
     url = "/about/"
     weight = 2
+#  [[menu.main]]
+#    name = "Optcg"
+#    url = "/optcg/"
+#    weight = 3

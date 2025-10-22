@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optcg on JVL</title>
+    <link>http://localhost:1313/tags/optcg/</link>
+    <description>Recent content in Optcg on JVL</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/optcg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>optcg_1.post</title>
+      <link>http://localhost:1313/posts/optcg_1/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/optcg_1/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/image.jpeg&#34; alt=&#34;OPTCG Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;i&amp;rsquo;ve learned a lot throughout my journey of playing One Piece. i&amp;rsquo;ve met a lot of people and created great friendships and will continue to do so.&lt;/p&gt;&#xA;&lt;p&gt;i have a lot of personal goals to get thru for this game:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; win locals&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; top 64 in regionals&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; get my first serial&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;recently I was able to beat JesseB who won the Arlington Regionals in OP06! (shoutout to Jesse)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,17 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on JVL</title>
-    <link>https://jimmyvanlieu.com/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on JVL</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jimmyvanlieu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>optcg_1.post</title>
+      <link>http://localhost:1313/posts/optcg_1/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/optcg_1/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/image.jpeg&#34; alt=&#34;OPTCG Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;i&amp;rsquo;ve learned a lot throughout my journey of playing One Piece. i&amp;rsquo;ve met a lot of people and created great friendships and will continue to do so.&lt;/p&gt;&#xA;&lt;p&gt;i have a lot of personal goals to get thru for this game:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; win locals&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; top 64 in regionals&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; get my first serial&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;recently I was able to beat JesseB who won the Arlington Regionals in OP06! (shoutout to Jesse)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tech_1.post</title>
+      <link>http://localhost:1313/posts/current_tech/</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/current_tech/</guid>
+      <description>&lt;p&gt;in the tech world, theres just too much ide/text editors that you can utilize.&lt;/p&gt;&#xA;&lt;p&gt;when i first started my real SWE job i utilized the cursor IDE a lot to try to play catchup on legacy code i&amp;rsquo;ve never seen before.&lt;/p&gt;&#xA;&lt;p&gt;now that everything at work has slowed down, i&amp;rsquo;ve decided to stop using AI as a crutch to do all the heavy lifting for me.&lt;/p&gt;&#xA;&lt;p&gt;i believe AI can speed up productivity but as a tool and not a crutch (as i&amp;rsquo;ve been using it)&lt;/p&gt;</description>
+    </item>
     <item>
       <title>intro</title>
-      <link>https://jimmyvanlieu.com/posts/intro/</link>
+      <link>http://localhost:1313/posts/intro/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://jimmyvanlieu.com/posts/intro/</guid>
+      <guid>http://localhost:1313/posts/intro/</guid>
       <description>&lt;p&gt;hello everyone, my name is jimmy lieu. i am a software engineer and i enjoy my work there.&lt;/p&gt;&#xA;&lt;p&gt;my current tech stack that i&amp;rsquo;m utilizing:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;dagster&lt;/li&gt;&#xA;&lt;li&gt;python&lt;/li&gt;&#xA;&lt;li&gt;go (WIP)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;i decided to start this blog to showcase some of my life experiences and hopefully document my journey as a software engineer which has always been a dream of mine&lt;/p&gt;&#xA;&lt;p&gt;i also play the one piece card game on my free time and improving every day on that&lt;/p&gt;</description>
     </item>
   </channel>
