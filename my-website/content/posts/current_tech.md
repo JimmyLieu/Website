@@ -12,7 +12,7 @@ now that everything at work has slowed down, i've decided to stop using AI as a 
 
 i believe AI can speed up productivity but as a tool and not a crutch (as i've been using it)
 
-it's been very fun diving into the simple technology that can help improveme as a junior developer
+it's been very fun diving into the simple technology that can help me improve as a junior developer
 
 examples:
 - vim motions (still need the cheat sheet pulled up)
