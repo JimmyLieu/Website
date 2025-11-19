@@ -22,7 +22,7 @@ theme = "shibui"
     name = "About"
     url = "/about/"
     weight = 2
-#  [[menu.main]]
-#    name = "Optcg"
-#    url = "/optcg/"
-#    weight = 3
+  [[menu.main]]
+    name = "OPTCG"
+    url = "/optcg/"
+    weight = 3

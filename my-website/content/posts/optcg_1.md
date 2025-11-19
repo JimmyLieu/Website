@@ -16,6 +16,7 @@ i have a lot of personal goals to get thru for this game:
 recently I was able to beat JesseB who won the Arlington Regionals in OP06! (shoutout to Jesse)
 
 
+
 everyone I played with has taught me something to better improve my gameplay (shoutout to the Grande Line & the sweet 6)
 
 hopefully when i update this post, i will be a much better player and marked something else off this list 
